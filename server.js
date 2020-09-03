@@ -3,6 +3,14 @@ const app = express();
 const morgan = require("morgan");
 const port = 4000;
 
+// const { db } = require("./models");
+
+// db.authenticate().
+//     then( () => {
+//       console.log('connected to the database');
+//     })
+
+
 app.listen(port, () => {
   console.log(`Server Started on Port ${port}`);
 });
